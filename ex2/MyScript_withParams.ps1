@@ -1,6 +1,9 @@
-[datetime] $EventDate = '09/20/2021'
-[string]   $Presenter = 'Gael'
-[string]   $Subject   = 'how to work with PowerShell modules'
+param
+(
+    [datetime] $EventDate = '09/20/2021',
+    [string]   $Presenter = 'Gael',
+    [string]   $Subject   = 'how to work with PowerShell modules'
+)
 
 if ($EventDate -eq [datetime]::Today )
 {
