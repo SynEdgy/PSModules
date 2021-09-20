@@ -21,11 +21,10 @@ function Get-MyDemoMessage
 
     if ($EventDate -eq [datetime]::Today)
     {
-        Write-Host -Object ('Today the {0}, {1} shows "{2}"!' -f @(
-                '{0:d.MM.yyyy}' -f $EventDate
-                $Presenter
-                $Subject
-            )
+        'Today the {0}, {1} shows "{2}"!' -f @(
+            '{0:d.MM.yyyy}' -f $EventDate
+            $Presenter
+            $Subject
         )
     }
     elseif ($EventDate -lt [datetime]::Today) 
