@@ -1,4 +1,4 @@
-[datetime] $EventDate = '20/09/2021'
+[datetime] $EventDate = '09/20/2021'
 [string]   $Presenter = 'Gael'
 [string]   $Subject   = 'how to work with PowerShell modules'
 
