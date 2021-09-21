@@ -12,13 +12,13 @@
 RootModule = 'MyModule.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.0.1'
+ModuleVersion = '0.0.2'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
 
 # ID used to uniquely identify this module
-GUID = '542a31a7-7046-4dba-adec-f5b6508c49be'
+GUID = 'a14319bb-ff61-4017-b591-f00d2ddce751'
 
 # Author of this module
 Author = 'Gael'
@@ -30,7 +30,7 @@ CompanyName = 'Unknown'
 Copyright = '(c) Gael. All rights reserved.'
 
 # Description of the functionality provided by this module
-# Description = ''
+Description = 'Test Module'
 
 # Minimum version of the PowerShell engine required by this module
 # PowerShellVersion = ''
